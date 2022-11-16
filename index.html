@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>芮塔花室</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- 自己寫的css要放最下面，全眾才會最重 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="topbar">
+        <h1><img src="images/logo.png" alt="芮塔花室商標"></h1>
+        <nav> <!-- 表格 -->
+            <ul class="icon"> <!-- a是行內元素不支援寬高必須更改display -->
+                <!-- target="_blank"另開視窗 -->
+                <li class="icon_fb"><a href="https://www.facebook.com/" target="_blank"></a></li>
+                <li class="icon_ig"><a href=""></a></li>
+                <li class="icon_line"><a href=""></a></li>
+            </ul>
+            <ul class="menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#service">SERVICE</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#video">VIDEO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="banner">
+            <header>
+                <h3>Flowers House</h3>
+                <h2>芮塔花室</h2>
+            </header>
+            <figure><img src="/images/banner.png" alt="一些花"></figure>
+            <video src="/images/flower.mp4" autoplay muted loop></video>
+        </div>
+        <section id="news" class="lightblue">
+            <!-- 區塊標籤 -->
+            <h2 class="title">NEWS</h2>
+            <!-- 列表容器 -->
+            <div class="box_list">
+                <!-- 列表1 -->
+                <article class="smoove" data-move-x="-500px" data-rotate="90deg">
+                    <figure><img src="/images/pt_news1.jpg" alt=""></figure>
+                    <h2>NEW TITLE</h2>
+                    <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reprehenderit, nisi
+                            magnam placeat quasi aperiam odit excepturi voluptatem illo accusantium voluptatum iusto
+                            culpa! Eligendi nulla quos assumenda ex earum iure!</a></p>
+                </article>
+                <!-- 列表2 -->
+                <article class="smoove" data-move-y="500px">
+                    <figure><img src="/images/pt_news2.jpg" alt=""></figure>
+                    <h2>NEW TITLE</h2>
+                    <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa reiciendis facilis
+                            error sequi, nemo excepturi distinctio voluptas, molestiae rem iste, mollitia eaque tempore.
+                            Officiis, corporis? Consectetur id excepturi temporibus doloribus ipsa soluta dolores!
+                            Exercitationem sit, ex itaque eaque deleniti velit, perferendis facere nesciunt excepturi
+                            corrupti numquam alias eos ad voluptas repudiandae ratione et assumenda aut doloribus!
+                            Asperiores quibusdam molestiae blanditiis ipsum, ducimus maxime aliquid sunt corrupti
+                            sapiente molestias doloribus quos, tenetur ut, temporibus harum exercitationem. Ipsum
+                            maxime, neque id blanditiis non labore molestias reiciendis aspernatur dicta eligendi
+                            dolores voluptatem consequuntur nemo. Eos dicta quas, asperiores sapiente voluptatibus
+                            doloribus sed? Sunt.</a></p>
+                </article>
+                <!-- 列表3 -->
+                <article class="smoove" data-move-x="500px" data-rotate="-90deg">
+                    <figure><img src="/images/pt_news3.jpg" alt=""></figure>
+                    <h2>NEW TITLE</h2>
+                    <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vero aperiam
+                            error beatae illo similique id ipsam qui nemo magnam, praesentium quasi, magni voluptates
+                            temporibus reprehenderit. Commodi non, cum porro unde error, sit vel impedit doloribus
+                            debitis, ipsa illo necessitatibus at saepe laborum dignissimos labore recusandae
+                            consequuntur. Laborum, quis! Nostrum quidem qui, id reprehenderit iste, corrupti in quisquam
+                            a ex, earum consequuntur repellat iure. Numquam adipisci deserunt fugit beatae, velit dolore
+                            odio labore eligendi? Repellendus beatae enim sapiente veritatis nostrum nobis, cupiditate
+                            explicabo temporibus, libero repellat dolores quam? Molestias reiciendis, amet magnam
+                            voluptates ducimus atque sed dignissimos sequi? Unde.</a></p>
+                </article>
+            </div>
+        </section>
+        <section id="service" class="lightgreen">
+            <h2 class="title">SERVICE</h2>
+            <div class="box_list">
+                <!-- div.item$*4>div>h2{SERVICE TITLE}+p>a[href='#'] -->
+                <div class="item1 smoove">
+                    <div class="text">
+                        <h2>SERVICE TITLE</h2>
+                        <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate deserunt
+                                aspernatur corrupti! Quibusdam inventore quod reiciendis unde molestiae. Laudantium
+                                dicta aspernatur facilis illum architecto libero porro incidunt cumque corporis
+                                veniam.</a></p>
+                    </div>
+                </div>
+                <div class="item2 smoove">
+                    <div class="text">
+                        <h2>SERVICE TITLE</h2>
+                        <p><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem voluptate saepe
+                                reprehenderit eos, officia a totam, placeat ab, beatae fugit suscipit facere eius odio
+                                sunt aliquam impedit fuga corrupti magnam.</a></p>
+                    </div>
+                </div>
+                <div class="item3 smoove">
+                    <div class="text">
+                        <h2>SERVICE TITLE</h2>
+                        <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem unde labore fuga
+                                deleniti. Qui repudiandae pariatur nemo sint enim in iste. Explicabo numquam ipsam ullam
+                                ducimus rem consequatur? Amet, quos!</a></p>
+                    </div>
+                </div>
+                <div class="item4 smoove">
+                    <div class="text">
+                        <h2>SERVICE TITLE</h2>
+                        <p><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet facere ea eveniet
+                                esse dolore eum consequuntur recusandae dicta magnam non alias illum ullam nihil
+                                laboriosam, rerum fuga doloremque earum! Velit.</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div>
+                <h2 class="title">ABOUT US</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ratione. Nesciunt modi sit numquam
+                    beatae eos maiores qui vel expedita odio? Autem similique labore placeat iusto maiores quasi, eaque
+                    blanditiis commodi. Accusamus quis id quasi alias, rerum provident sit, ipsa delectus praesentium
+                    veritatis quod, tempore voluptas iste totam qui pariatur distinctio illum? Consectetur reprehenderit
+                    dignissimos doloribus laudantium non. Cupiditate quia quos cumque facere autem ullam doloribus sequi
+                    sunt repudiandae maiores itaque eaque, accusantium animi eum! Sunt earum hic pariatur cum alias est
+                    reprehenderit porro, autem adipisci perferendis ducimus mollitia ea ipsa eos molestias dignissimos
+                    voluptatum ullam ut molestiae! Veniam minima dolorum iste id, consequuntur voluptates perspiciatis a
+                    nemo rem excepturi voluptatem veritatis consectetur, provident laborum obcaecati tempore ipsa culpa!
+                    Provident deleniti possimus ratione consequuntur. Veniam facilis inventore voluptate voluptatem
+                    magnam molestias odio vitae, nobis corporis. Iusto distinctio in dolore quibusdam vero ea nostrum
+                    ratione quos expedita ab sit soluta ullam laboriosam, cupiditate esse perspiciatis, corporis,
+                    assumenda laudantium itaque odio est. Reprehenderit, molestiae blanditiis. Earum, ex in incidunt
+                    nobis qui nisi vero aperiam voluptates quasi? Nisi non ut ducimus consequuntur quisquam expedita
+                    voluptates incidunt consequatur delectus facilis laboriosam eum ex veniam ratione nostrum sapiente,
+                    rem commodi obcaecati perspiciatis! Corrupti, repellendus vero? Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Porro soluta dolorem incidunt odit, rerum eveniet esse nesciunt
+                    laudantium, illo doloribus aliquid. Impedit natus dignissimos facere labore, corporis ipsa
+                    consequuntur ullam deleniti temporibus molestiae facilis quod porro in placeat ratione a doloribus,
+                    quo tenetur quaerat accusantium cum, nam earum rerum ipsum! Labore similique voluptas laboriosam
+                    libero voluptatibus. Ratione quae itaque dicta aliquid, rerum labore! Ipsa debitis corrupti minima
+                    numquam accusamus dolorum. Assumenda eaque minima quas expedita architecto modi veritatis illum,
+                    voluptates libero dignissimos ea dolorem laborum quibusdam ab sapiente reprehenderit voluptatum
+                    exercitationem iusto incidunt facere error, eum aliquam! Ea a at velit harum illum nulla
+                    repellendus. Reiciendis accusamus, culpa temporibus ex, quaerat vitae eaque eveniet autem quis atque
+                    officia ipsam est cupiditate unde? Quis, asperiores ipsam veritatis molestiae sapiente perferendis
+                    obcaecati excepturi? Aut modi nam maiores, error illo recusandae delectus nulla soluta unde maxime
+                    quidem numquam qui repellat dolore provident alias, quasi id iste ipsum illum sequi ipsam possimus.
+                    Sequi quas ipsa quos vero debitis corrupti at, incidunt culpa dicta voluptatem minima sint labore
+                    nam maxime consequuntur praesentium voluptates blanditiis nulla iste recusandae, distinctio vel
+                    totam quod. Eos ipsa nam labore blanditiis, eaque tempora laborum velit dolores dicta accusamus,
+                    deserunt, natus beatae asperiores debitis sit distinctio vero. Illum voluptatem dolor ipsam
+                    deleniti? Vitae quisquam ipsum sint a nostrum excepturi ab facere eos temporibus quam suscipit
+                    quaerat impedit earum dicta consequuntur dolor ut beatae itaque ex, libero iure numquam sapiente.
+                    Explicabo eaque placeat exercitationem sint iusto voluptatem facere enim quas adipisci consequatur
+                    odio suscipit optio maiores eum, repudiandae est odit debitis quae ducimus porro. Iure cumque ex ab?
+                    Iusto ipsam, id in laboriosam repudiandae nihil voluptas veritatis vitae eligendi atque doloribus
+                    nostrum ut expedita! Beatae dignissimos porro aut ex earum at iste labore nemo culpa magni tempore
+                    excepturi voluptas reprehenderit eius accusamus maiores quae dolorum nam sit tenetur, architecto
+                    alias, rerum sed mollitia. Quidem obcaecati ex quam, architecto fugiat saepe deserunt similique
+                    blanditiis nam tempora possimus dolor esse quo expedita sit inventore provident quaerat facilis odit
+                    dignissimos repellat! Ipsum non suscipit, repudiandae perspiciatis aliquid sint id quidem culpa,
+                    consectetur quas, voluptatem facere maiores expedita tempore laborum quisquam nemo atque vero
+                    voluptate. Excepturi voluptate praesentium, reprehenderit omnis deleniti ducimus. Accusamus sunt
+                    repudiandae odio libero tenetur ad ab sint, quod ratione dicta eveniet, ut aliquid eos expedita
+                    distinctio alias incidunt saepe facilis. Doloremque animi, velit repellendus in quod voluptate!
+                    Neque numquam ullam maxime deserunt quibusdam autem, placeat labore similique incidunt pariatur
+                    fuga? Quasi debitis obcaecati sapiente nulla nisi minus doloremque, eveniet excepturi architecto
+                    suscipit cumque consectetur in? Dolorum fuga, maxime ullam quos dolorem sit nisi totam autem commodi
+                    molestias obcaecati doloremque reprehenderit atque excepturi deserunt nulla ex fugiat et amet.
+                    Repellendus cumque nisi incidunt earum ea veniam accusantium accusamus reiciendis aut quas vel,
+                    delectus, quibusdam consequuntur eius tempora dolores nihil non consectetur dignissimos eaque. A
+                    porro, animi dicta odio veniam voluptates, quod possimus dignissimos, eos aspernatur nesciunt
+                    reiciendis illum exercitationem excepturi libero consectetur tempora officia iure. Minima, qui fuga
+                    iure id magni architecto distinctio?</p>
+            </div>
+        </section>
+        <section id="video" class="lightgreen">
+            <h2 class="title">VIDEO</h2>
+            <div>
+                <video src="/images/Planter.mp4" controls loop poster="/images/video.jpg"></video>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="title">CONTACT</h2>
+            <form name="contact_form" id="contact_form" method="post" action="">
+
+                <label for="name">*姓名:</label>
+                <input class="item_style" type="text" name="name" id="name" required="required" autocomplete="on" placeholder="王大明" title="請輸入姓名">
+
+                <label for="tel">*聯絡電話:</label>
+                <input class="item_style" type="tel" name="tel" id="tel" required="required" placeholder="02-12345678">
+
+                <label for="email">Email:</label>
+                <input class="item_style" type="email" name="email" id="email" placeholder="yuyuyu@gmail.com">
+
+                <label for="message">備註:</label>
+                <textarea class="item_style" name="message" id="message" rows="7" ></textarea>
+
+                <button>
+                    <span>傳送</span>
+                </button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <div id="gotop"><i class="fa-solid fa-angle-up"></i></div>
+    </footer>
+    <!-- jQuery CDN原始碼 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- smoove 原生碼 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+    <!-- 自己寫的jq要在最下面，執行順序在最下面 -->
+    <script src="script.js"></script>
+</body>
+
+</html>
