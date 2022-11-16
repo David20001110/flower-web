@@ -276,22 +276,22 @@ section{
     
 }
 .item1{
-    background-image: url(/../images/pt_svc1.jpg);
+    background-image: url(../images/pt_svc1.jpg);
     /* background-size: cover; */
     
 }
 .item2{
-    background-image: url(/../images/pt_svc2.jpg);
+    background-image: url(../images/pt_svc2.jpg);
     /* background-size: cover;
     background-position: center center; */
 }
 .item3{
-    background-image: url(/../images/pt_svc3.jpg);
+    background-image: url(../images/pt_svc3.jpg);
     /* background-size: cover;
     background-position: center center; */
 }
 .item4{
-    background-image: url(/../images/pt_svc4.jpg);
+    background-image: url(../images/pt_svc4.jpg);
     /* background-size: cover;
     background-position: center center; */
 }
@@ -311,7 +311,7 @@ section{
 /* ABOUT區 */
 #about{
     color: #ddd;
-    background-image: url(/../images/pt_about.jpg);
+    background-image: url(../images/pt_about.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
